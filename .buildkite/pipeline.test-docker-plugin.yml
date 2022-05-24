@@ -1,0 +1,5 @@
+steps:
+  - command: ./src/test.sh
+    plugins:
+      - docker#v3.13.0:
+          image: "node:7"
