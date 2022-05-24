@@ -3,6 +3,7 @@ steps:
       - ls -a
       - pwd
       - ./src/test.sh
+    artifact_paths: "./src"
     plugins:
       - docker#v3.13.0:
           image: "node:7"
