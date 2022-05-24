@@ -1,5 +1,8 @@
 steps:
-  - command: ./src/test.sh
+  - command: 
+      - ls -a
+      - pwd
+      - ./src/test.sh
     plugins:
       - docker#v3.13.0:
           image: "node:7"
